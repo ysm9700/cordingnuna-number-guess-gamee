@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(묘지\ 도끼.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main {
+    width: 900px;
+    height: 700px;
+    background-color: rgba( 255, 255, 255, 0.5);
+    border: 3px solid white;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#title-first {
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+}
+
+#title-second {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color: red;
+}
+
+#middle {
+    margin-top: 140px;
+    position: relative;
+    bottom: 110px;
+}
+
+#result-area {
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+}
+
+#chance-area {
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#user-input {
+    margin-top: 30px;
+}
+
+#play-button {
+    margin-top: 30px;
+}
+
+#reset {
+    margin-top: 50px;
+}
+
+#middle-img {
+    height: 150px;
+    width: 300px;
+}
+
+#play-button {
+    height: 90px;
+    width: 100px;
+    background-color: aqua;
+    border: none;
+    border-radius: 40%;
+    font-size: 60px;
+    position: relative;
+    left: 40px;
+    bottom: 13px;
+    font-family: 'Passion One', cursive;
+}
+
+#play-button:hover {
+    transform: scale(1.5);
+}
+
+#user-input {
+    width: 500px;
+    height: 70px;
+    border: 0;
+    font-size: 50px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Passion One', cursive;
+    position: relative;
+    bottom: 14px;
+}
+
+#reset-button {
+    position: relative;
+    bottom: 40px;
+    height: 60px;
+    width: 180px;
+    border: none;
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+#reset-button:hover {
+    transform: scale(1.5);
+}
